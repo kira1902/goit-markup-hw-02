@@ -1,0 +1,121 @@
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* контакты в футере rgba(255, 255, 255, 0.6); */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --button-bg-color: #f5f4fa;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primiry-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* HEADER */
+.contact-list {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contact .contact-list {
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+.contact-list {
+  color: var(--primary-text-color);
+}
+.contact-list:focus,
+.contact-list:hover {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+/* /---------section button-------> */
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.button {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+}
+.portf {
+  color: var(--accent-color);
+}
+/* ----class   list---- */
+.title-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* LOGO */
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color)
+}
+.logo-color{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+/* footer */
+.banner-footer {
+background-color: #2F303A;
+font-style: normal
+}
+/* LOGO footer */
+.logo-studio{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19
+  letter-spacing: 0.03em;
+  color: var(--white-color)
+}
+/* address */
+.adress-line {
+  color: var(--white-color);
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.adress-list{
+   font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
+} 
+}
+.adress-list:hover,
+.adress-list:focus{
+color: var(--accent-color)
+}
